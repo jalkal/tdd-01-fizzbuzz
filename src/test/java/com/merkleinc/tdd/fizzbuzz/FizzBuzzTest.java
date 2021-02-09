@@ -76,6 +76,7 @@ public class FizzBuzzTest {
 
         @Override
         public void print(List<String> elementsToPrint) {
+            Printer.super.print(elementsToPrint);
             this.elementsToPrint = elementsToPrint;
         }
 
